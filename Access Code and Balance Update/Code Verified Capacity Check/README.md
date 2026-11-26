@@ -18,7 +18,7 @@ Compare an entered code with a stored code and conditionally add an amount to a 
 
 ## Worked example
 
-The documented balance case starts at 110 and adds 50, giving 160.
+The balance starts at 110 and adds 50, giving 160.
 
 ### Calculation details
 
@@ -57,12 +57,4 @@ B -->|Results or control signals| E["Output: Inspect memory in debugger"]
 
 Results are available in memory without a display.
 
-## Technical limitations
-
-No additional defect was recorded in the earlier source review. This is not evidence of a successful build or hardware test.
-
-## Build and test
-
-1. Open the [assembly source](source.a51) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.a51)

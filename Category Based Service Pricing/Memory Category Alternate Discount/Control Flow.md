@@ -12,7 +12,7 @@ Start from the first executable block or the entry selected by the calling appli
 
 [Section 1](#section-1) · [Section 2](#section-2) · [Section 3](#section-3)
 
-## Destinations requiring review
+## Unresolved Branch Targets
 
 `HERE`. A repeated label is also unresolved because it has more than one candidate target.
 

@@ -6,7 +6,7 @@ Calculate a service charge from a category, optional extras, quantity, and a fin
 
 ## Implementations
 
-The sources use different nursery or transport wording around related price calculations. Memory versions isolate arithmetic; keypad versions collect choices; indicator versions add port feedback. The unfinished two-question form is listed separately in Support Files and Incomplete Exercises.
+The sources use different nursery or transport wording around related price calculations. Memory versions isolate arithmetic; keypad versions collect choices; indicator versions add port feedback. The two-question form is available in the Development Utilities repository.
 
 | Implementation | Input | Output |
 | --- | --- | --- |

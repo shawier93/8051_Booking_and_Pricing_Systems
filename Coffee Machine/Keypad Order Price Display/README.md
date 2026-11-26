@@ -55,12 +55,4 @@ B -->|Results or control signals| E["Output: LCD and internal result bytes"]
 
 **Port registers:** `P0`, `P1`, `P1.2`, `P1.3`, `P1.4`, `P1.5`, `P1.6`, `P1.7`, `P2.0`, `P2.1`, `P2.2`, `P2.3`, `P2.4`, `P2.5`, `P2.6`, `P2.7`, `p2.0`, `p2.1`, `p2.2`, `p2.3`, `p2.4`, `p2.5`, `p2.6`, `p2.7`.
 
-## Technical limitations
-
-No additional defect was recorded in the earlier source review. This is not evidence of a successful build or hardware test.
-
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

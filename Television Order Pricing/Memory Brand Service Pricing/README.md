@@ -18,7 +18,7 @@ Build a television order price from a brand and optional services.
 
 ## Worked example
 
-For the documented brand-2 case: 55 + 2 + 3 + 3 = 63 each; two cost 126; subtracting 17 gives 109.
+For brand 2: 55 + 2 + 3 + 3 = 63 each; two cost 126; subtracting 17 gives 109.
 
 ### Calculation details
 
@@ -57,12 +57,4 @@ B -->|Results or control signals| E["Output: Inspect memory in debugger"]
 
 Results are available in memory without a display.
 
-## Technical limitations
-
-No additional defect was recorded in the earlier source review. This is not evidence of a successful build or hardware test.
-
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

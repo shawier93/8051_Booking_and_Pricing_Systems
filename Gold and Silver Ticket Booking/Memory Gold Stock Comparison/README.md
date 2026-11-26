@@ -62,8 +62,4 @@ Results are available in memory without a display.
 
 - The gold branch compares R3 with B after loading both from the stock byte. That test cannot detect a request above the available stock.
 
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

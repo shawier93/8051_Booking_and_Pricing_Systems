@@ -6,9 +6,6 @@ Calculate an example policy price from a category and selected options.
 
 **Implementation:** Led Policy Pricing Draft
 
-**Input:** see input example.  
-**Output:** see result example.
-
 ## Inputs and results
 
 | Parameter | Description |
@@ -59,10 +56,6 @@ B -->|Results or control signals| E["Output: See result example"]
 
 ## Technical limitations
 
-- has an incomplete operand in `MOV R7,#`.
+- Incomplete operand in `MOV R7,#`.
 
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

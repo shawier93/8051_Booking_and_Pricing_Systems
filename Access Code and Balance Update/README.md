@@ -6,7 +6,7 @@ Compare an entered code with a stored code and conditionally add an amount to a 
 
 ## Implementations
 
-The two listings use different preset balances and additions. Their comparisons also differ: a self-comparison does not validate the intended limit. Treat the checks as code exercises, not an access-control product.
+The two listings use different preset balances and additions. Their comparisons also differ: a self-comparison does not validate the intended limit. 
 
 | Implementation | Input | Output |
 | --- | --- | --- |

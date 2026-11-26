@@ -6,7 +6,7 @@ Build a television order price from a brand and optional services.
 
 ## Implementations
 
-The calculation-only version uses fixed option bytes. Keypad versions collect options. Indicator and interrupt versions add different feedback and control paths. They share a pricing exercise, not a current retail price list.
+The calculation-only version uses fixed option bytes. Keypad versions collect options. Indicator and interrupt versions add different feedback and control paths. 
 
 | Implementation | Input | Output |
 | --- | --- | --- |

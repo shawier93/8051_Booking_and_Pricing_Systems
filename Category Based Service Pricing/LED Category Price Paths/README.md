@@ -6,9 +6,6 @@ Calculate a service charge from a category, optional extras, quantity, and a fin
 
 **Implementation:** Led Category Price Paths
 
-**Input:** see input example.  
-**Output:** see result example.
-
 ## Inputs and results
 
 | Parameter | Description |
@@ -18,7 +15,7 @@ Calculate a service charge from a category, optional extras, quantity, and a fin
 
 ## Worked example
 
-For the documented category-1 route: base 38 + extras 8 + 10 = 56 per item; quantity 2 gives 112 before any final discount.
+For category 1: base 38 + extras 8 + 10 = 56 per item; quantity 2 gives 112 before any final discount.
 
 ### Calculation details
 
@@ -57,12 +54,4 @@ B -->|Results or control signals| E["Output: See result example"]
 
 **Port registers:** `P1`, `P1.0`, `P1.1`, `P1.2`.
 
-## Technical limitations
-
-No additional defect was recorded in the earlier source review. This is not evidence of a successful build or hardware test.
-
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)
