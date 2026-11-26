@@ -19,7 +19,7 @@ One preset case starts at 28, adds 18 and 22, then subtracts 10 and 4: the resul
 
 ### Calculation details
 
-Use the bundled category 2, insurance option 2, abroad option 1, membership 1 and subscription value 4. The base 28 gains 18 and 22, becoming 68. The membership routine subtracts 10 and the subscription routine subtracts 4. The final cost is 54 (36H hexadecimal) in RAM 35H. For the revision with an incomplete FLASH operand, this is the pricing-path result after bypassing that draft routine.
+Use the bundled category 2, insurance option 2, abroad option 1, membership 1 and subscription value 4. The base 28 gains 18 and 22, becoming 68. The membership routine subtracts 10 and the subscription routine subtracts 4. The final cost is 54 (36H hexadecimal) in RAM 35H.
 
 ## Program operation
 
@@ -53,9 +53,5 @@ B -->|Results or control signals| E["Output: See result example"]
 ```
 
 **Port registers:** `P1`.
-
-## Technical limitations
-
-- Incomplete operand in `MOV R7,#`.
 
 [Assembly source](source.asm)

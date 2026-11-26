@@ -22,7 +22,7 @@ With 9 gold tickets in stock, price 5, and a request for 2: charge 10 and remain
 
 ### Calculation details
 
-The defaults select gold, six tickets, and a stock of nine. The code subtracts 6 from 9 and stores 3 at 33H. MOVC reads the gold price 5, and MUL AB gives 30. Observe 1EH at 50H. For an overlarge request the comparison mistakenly checks the stock against itself.
+The defaults select gold, six tickets, and a stock of nine. The code subtracts 6 from 9 and stores 3 at 33H. MOVC reads the gold price 5, and MUL AB gives 30. Observe 1EH at 50H.
 
 ## Program operation
 
@@ -57,9 +57,5 @@ B -->|Results or control signals| E["Output: Inspect memory in debugger"]
 ```
 
 Results are available in memory without a display.
-
-## Technical limitations
-
-- The gold branch compares R3 with B after loading both from the stock byte. That test cannot detect a request above the available stock.
 
 [Assembly source](source.asm)

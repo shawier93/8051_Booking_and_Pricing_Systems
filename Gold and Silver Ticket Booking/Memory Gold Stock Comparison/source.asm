@@ -23,7 +23,7 @@ GOLD_TICKETS:
 MOV A,33H ;load the available tickets for gold
 MOV B,A
 MOV R3,A
-MOV A,R3	 
+MOV A,R1	 
 CJNE A, B, OTHERWISE 
 	 SJMP LESS_EQUAL
 OTHERWISE: 

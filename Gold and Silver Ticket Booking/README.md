@@ -6,7 +6,7 @@ Select gold or silver tickets, calculate the charge, and update the stored numbe
 
 ## Implementations
 
-Some versions use price tables; others use direct constants. Preset versions demonstrate a specific class and quantity. Keypad and interrupt versions add interaction. A comparison that checks stock against itself cannot reject an oversized request, even if the normal example works.
+Some versions use price tables; others use direct constants. Preset versions demonstrate a specific class and quantity. Keypad and interrupt versions add interaction.
 
 | Implementation | Input | Output |
 | --- | --- | --- |
